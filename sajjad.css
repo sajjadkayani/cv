@@ -1,0 +1,32 @@
+.cv{
+    background-color: rgb(255, 255, 255);
+    border: 1em double black;
+}
+#card{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 8em ;
+    
+    
+    }
+    #outer{
+        background-color: red; /* For browsers that do not support gradients */
+        background-image: linear-gradient(to bottom right, rgb(252, 227, 227), rgb(187, 255, 236));
+    }
+.personal{
+    display: flex;
+    justify-content: center;
+}
+
+.intro{
+    
+}
+
+.quali{
+  
+}
+
+
+.expe{
+   
+}
