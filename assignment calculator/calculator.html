@@ -1,0 +1,116 @@
+<!-- Create a simple Program to build the Calculator in JavaScript using with HTML and CSS web languages. -->
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<title> JavaScript Calculator </title>
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+rel="stylesheet"
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+crossorigin="anonymous"
+/>
+<link rel="stylesheet" href="calculaor.css">
+
+</head>
+<body>
+    <nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+          <div class="container-fluid">
+            <div>
+              <img
+                class="w-25 rounded-circle"
+                src="../New folder/components/Screenshot_2.png"
+                alt=""
+              />
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-items">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="../New folder/Homepage.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="../New folder/Project.html">Project</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="../New folder/CV.html">CV</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="../New folder/Contact.html"
+                      >Contact us</a
+                    >
+                  </li>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./calculator.html"
+                      >Calculator</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </nav>
+<h1> Calculator Program in JavaScript </h1>
+<div class= "formstyle d-flex justify-content-center container-fluid">
+<form name = "form1" class="form1 w-25 d-flex justify-content-center bg-success ">
+ 
+
+  <div class="row d-flex justify-content-center ">
+    <div class="col-7">
+    <input class=" m-2" id = "calc" type ="text" name = "answer"> 
+  </div>
+  <div class="button w-50  rounded bg-warning ">
+  <div class=" mx-3 col-12">
+  <input type = "button" value = " 1 " onclick = "form1.answer.value += '1' ">
+  <input type = "button" value = " 2 " onclick = "form1.answer.value += '2' ">
+  <input type = "button" value = " 3 " onclick = "form1.answer.value += '3' ">
+   <input type = "button" value = " + " onclick = "form1.answer.value += '+' ">
+  </div>
+  <div class=" mx-3 col-12">
+  <input type = "button" value = " 4 " onclick = "form1.answer.value += '4' ">
+  <input type = "button" value = " 5 " onclick = "form1.answer.value += '5' ">
+  <input type = "button" value = " 6 " onclick = "form1.answer.value += '6' ">
+  <input type = "button" value = " - " onclick = "form1.answer.value += '-' ">
+</div>
+<div class="mx-3 col-12 ">
+  <input type = "button" value = " 7 " onclick = "form1.answer.value += '7' ">
+  <input type = "button" value = " 8 " onclick = "form1.answer.value += '8' ">
+  <input type = "button" value = " 9 " onclick = "form1.answer.value += '9' ">
+  <input type = "button" value = " * " onclick = "form1.answer.value += '*' ">
+</div>
+  
+  <div class="mx-3 col-12">
+  <input type = "button" value = " / " onclick = "form1.answer.value += '/' ">
+  <input type = "button" value = " 0 " onclick = "form1.answer.value += '0' ">
+    <input type = "button" value = "  .  " onclick = "form1.answer.value += '.' ">
+    <input type = "button" value = " C " onclick = "form1.answer.value = ' ' " id= "clear" >
+	</div>
+<div class=" mx-3 col-12">
+  <input type = "button" value = "              =              " onclick = "form1.answer.value = eval(form1.answer.value) ">
+</div>
+</div>
+</div>
+</form>
+</div>
+</body>
+</html>
+
+ 

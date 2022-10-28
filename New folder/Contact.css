@@ -1,0 +1,8 @@
+.bg-secondary{
+      height: 90em;
+      
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(./components/pexels-pixabay-38537.jpg);
+    
+}
